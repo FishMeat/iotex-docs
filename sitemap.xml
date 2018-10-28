@@ -10,7 +10,15 @@
 <url> <loc>http://docs.iotex.me/blog/2016/03/11/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>http://docs.iotex.me/docs/doc1</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/doc1" /> </url>
 <url> <loc>http://docs.iotex.me/docs/doc2</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/doc2" /> </url>
-<url> <loc>http://docs.iotex.me/docs/doc3</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/doc3" /> </url>
-<url> <loc>http://docs.iotex.me/docs/doc4</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/doc4" /> </url>
-<url> <loc>http://docs.iotex.me/docs/doc5</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/doc5" /> </url>
+<url> <loc>http://docs.iotex.me/docs/doc</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/doc" /> </url>
+<url> <loc>http://docs.iotex.me/docs/guides</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/guides" /> </url>
+<url> <loc>http://docs.iotex.me/docs/iotex-client-js</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/iotex-client-js" /> </url>
+<url> <loc>http://docs.iotex.me/docs/iotex-core-json-rpc</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/iotex-core-json-rpc" /> </url>
+<url> <loc>http://docs.iotex.me/docs/products</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/products" /> </url>
+<url> <loc>http://docs.iotex.me/docs/sdk-account</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/sdk-account" /> </url>
+<url> <loc>http://docs.iotex.me/docs/sdk-methods</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/sdk-methods" /> </url>
+<url> <loc>http://docs.iotex.me/docs/sdk-overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/sdk-overview" /> </url>
+<url> <loc>http://docs.iotex.me/docs/sdk-smart-contract</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/sdk-smart-contract" /> </url>
+<url> <loc>http://docs.iotex.me/docs/sdk-transfer</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/sdk-transfer" /> </url>
+<url> <loc>http://docs.iotex.me/docs/sdk-vote</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/sdk-vote" /> </url>
 </urlset>

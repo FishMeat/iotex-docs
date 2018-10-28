@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Test Document Blog</title>
+        <title>IoTeX Documentations Blog</title>
         <link>http://docs.iotex.me//blog</link>
-        <description>The best place to stay up-to-date with the latest Test Document news and events.</description>
+        <description>The best place to stay up-to-date with the latest IoTeX Documentations news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>Test Document Blog</title>
+            <title>IoTeX Documentations Blog</title>
             <url>http://docs.iotex.me///iotex.io/logo.svg</url>
             <link>http://docs.iotex.me//blog</link>
         </image>
