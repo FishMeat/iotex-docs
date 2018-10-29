@@ -1,31 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>JSON RPC for iotex-core · IoTeX Documentations</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Explorer.getBlockchainHeight"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="JSON RPC for iotex-core · IoTeX Documentations"/><meta property="og:type" content="website"/><meta property="og:url" content="http://docs.iotex.me//index.html"/><meta property="og:description" content="## Explorer.getBlockchainHeight"/><meta property="og:image" content="http://docs.iotex.me/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="http://docs.iotex.me/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="//iotex.io/logo.svg" alt="IoTeX Documentations"/><h2 class="headerTitleWithLogo">IoTeX Documentations</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/guides" target="_self">Guides</a></li><li class="siteNavGroupActive"><a href="/docs/sdk-overview" target="_self">SDK</a></li><li class=""><a href="https://github.com/iotexproject/" target="_blank">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Reference</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul><li class="navListItem"><a class="navItem" href="/docs/sdk-overview">SDK Overview</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">JS SDK (iotex-client-js)</h3><ul><li class="navListItem"><a class="navItem" href="/docs/sdk-account">Account</a></li><li class="navListItem"><a class="navItem" href="/docs/sdk-methods">RPC methods</a></li><li class="navListItem"><a class="navItem" href="/docs/sdk-transfer">Transfer</a></li><li class="navListItem"><a class="navItem" href="/docs/sdk-smart-contract">Smart Contract</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Reference</h3><ul><li class="navListItem"><a class="navItem" href="/docs/iotex-client-js">iotex-client-js v0.0.7</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/iotex-core-json-rpc">JSON RPC for iotex-core</a></li></ul></div></div></section></div><script>
-            document.addEventListener('DOMContentLoaded', function() {
-              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
-              createToggler('#tocToggler', 'body', 'tocActive');
-
-              const headings = document.querySelector('.toc-headings');
-              headings && headings.addEventListener('click', function(event) {
-                if (event.target.tagName === 'A') {
-                  document.body.classList.remove('tocActive');
-                }
-              }, false);
-
-              function createToggler(togglerSelector, targetSelector, className) {
-                var toggler = document.querySelector(togglerSelector);
-                var target = document.querySelector(targetSelector);
-
-                if (!toggler) {
-                  return;
-                }
-
-                toggler.onclick = function(event) {
-                  event.preventDefault();
-
-                  target.classList.toggle(className);
-                };
-              }
-            });
-        </script></nav></div><div class="container mainContainer docMainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">JSON RPC for iotex-core</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="explorergetblockchainheight"></a><a href="#explorergetblockchainheight" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getBlockchainHeight</h2>
+<!DOCTYPE html><html lang=""><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>IoTeX Documentations · IoTeX is a Decentralized Network for Internet of Things Powered by a Privacy-Centric Blockchain.</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="IoTeX is a Decentralized Network for Internet of Things Powered by a Privacy-Centric Blockchain."/><meta property="og:title" content="IoTeX Documentations · IoTeX is a Decentralized Network for Internet of Things Powered by a Privacy-Centric Blockchain."/><meta property="og:type" content="website"/><meta property="og:url" content="http://docs.iotex.me//index.html"/><meta property="og:description" content="IoTeX is a Decentralized Network for Internet of Things Powered by a Privacy-Centric Blockchain."/><meta property="og:image" content="http://docs.iotex.me/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="http://docs.iotex.me/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="//iotex.io/logo.svg" alt="IoTeX Documentations"/><h2 class="headerTitleWithLogo">IoTeX Documentations</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/guides" target="_self">Guides</a></li><li class=""><a href="/docs/sdk-overview" target="_self">SDK</a></li><li class=""><a href="https://github.com/iotexproject/" target="_blank">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div><div class="mainContainer"><div class="container"><div class="wrapper"><div><span><h2><a class="anchor" aria-hidden="true" id="explorergetblockchainheight"></a><a href="#explorergetblockchainheight" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getBlockchainHeight</h2>
 <p>get the blockchain tip height</p>
 <h3><a class="anchor" aria-hidden="true" id="parameters"></a><a href="#parameters" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Parameters</h3>
 <pre><code class="hljs">[]
@@ -59,7 +32,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-1"></a><a href="#example-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getAddressBalance"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"address: string"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getAddressBalance"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[address: string]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetaddressdetails"></a><a href="#explorergetaddressdetails" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getAddressDetails</h2>
 <p>get the address detail of an iotex address</p>
@@ -80,7 +53,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-2"></a><a href="#example-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getAddressDetails"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"address: string"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getAddressDetails"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[address: string]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetlasttransfersbyrange"></a><a href="#explorergetlasttransfersbyrange" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getLastTransfersByRange</h2>
 <p>get list of transfers by start block height, transfer offset and limit</p>
@@ -116,7 +89,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-3"></a><a href="#example-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getLastTransfersByRange"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"startBlockHeight: int"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>, <span class="hljs-string">"showCoinBase: bool"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getLastTransfersByRange"</span>,<span class="hljs-string">"params"</span>:[startBlockHeight: <span class="hljs-built_in">int</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>, showCoinBase: <span class="hljs-built_in">bool</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergettransferbyid"></a><a href="#explorergettransferbyid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getTransferByID</h2>
 <p>get transfers from transaction id</p>
@@ -137,7 +110,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-4"></a><a href="#example-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getTransferByID"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"transferID: string"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getTransferByID"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[transferID: string]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergettransfersbyaddress"></a><a href="#explorergettransfersbyaddress" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getTransfersByAddress</h2>
 <p>get list of transfers belonging to an address</p>
@@ -168,7 +141,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-5"></a><a href="#example-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getTransfersByAddress"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"address: string"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getTransfersByAddress"</span>,<span class="hljs-string">"params"</span>:[address: <span class="hljs-built_in">string</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetunconfirmedtransfersbyaddress"></a><a href="#explorergetunconfirmedtransfersbyaddress" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getUnconfirmedTransfersByAddress</h2>
 <p>get list of unconfirmed transfers in actpool belonging to an address</p>
@@ -199,7 +172,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-6"></a><a href="#example-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getUnconfirmedTransfersByAddress"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"address: string"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getUnconfirmedTransfersByAddress"</span>,<span class="hljs-string">"params"</span>:[address: <span class="hljs-built_in">string</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergettransfersbyblockid"></a><a href="#explorergettransfersbyblockid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getTransfersByBlockID</h2>
 <p>get all transfers in a block</p>
@@ -230,7 +203,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-7"></a><a href="#example-7" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getTransfersByBlockID"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"blkID: string"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getTransfersByBlockID"</span>,<span class="hljs-string">"params"</span>:[blkID: <span class="hljs-built_in">string</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetlastvotesbyrange"></a><a href="#explorergetlastvotesbyrange" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getLastVotesByRange</h2>
 <p>get list of votes by start block height, vote offset and limit</p>
@@ -261,7 +234,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-8"></a><a href="#example-8" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getLastVotesByRange"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"startBlockHeight: int"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span><span class="hljs-symbol">:</span><span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span><span class="hljs-symbol">:</span><span class="hljs-string">"Explorer.getLastVotesByRange"</span>,<span class="hljs-string">"params"</span><span class="hljs-symbol">:</span>[startBlockHeig<span class="hljs-symbol">ht:</span> <span class="hljs-built_in">int</span>, offs<span class="hljs-symbol">et:</span> <span class="hljs-built_in">int</span>, lim<span class="hljs-symbol">it:</span> <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span><span class="hljs-symbol">:1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetvotebyid"></a><a href="#explorergetvotebyid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getVoteByID</h2>
 <p>get vote from vote id</p>
@@ -282,7 +255,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-9"></a><a href="#example-9" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getVoteByID"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"voteID: string"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getVoteByID"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[voteID: string]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetvotesbyaddress"></a><a href="#explorergetvotesbyaddress" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getVotesByAddress</h2>
 <p>get list of votes belonging to an address</p>
@@ -313,7 +286,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-10"></a><a href="#example-10" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getVotesByAddress"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"address: string"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getVotesByAddress"</span>,<span class="hljs-string">"params"</span>:[address: <span class="hljs-built_in">string</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetunconfirmedvotesbyaddress"></a><a href="#explorergetunconfirmedvotesbyaddress" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getUnconfirmedVotesByAddress</h2>
 <p>get list of unconfirmed votes in actpool belonging to an address</p>
@@ -344,7 +317,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-11"></a><a href="#example-11" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getUnconfirmedVotesByAddress"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"address: string"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getUnconfirmedVotesByAddress"</span>,<span class="hljs-string">"params"</span>:[address: <span class="hljs-built_in">string</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetvotesbyblockid"></a><a href="#explorergetvotesbyblockid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getVotesByBlockID</h2>
 <p>get all votes in a block</p>
@@ -375,7 +348,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-12"></a><a href="#example-12" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getVotesByBlockID"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"blkID: string"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getVotesByBlockID"</span>,<span class="hljs-string">"params"</span>:[blkID: <span class="hljs-built_in">string</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetlastexecutionsbyrange"></a><a href="#explorergetlastexecutionsbyrange" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getLastExecutionsByRange</h2>
 <p>get list of executions by start block height, execution offset and limit</p>
@@ -406,7 +379,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-13"></a><a href="#example-13" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getLastExecutionsByRange"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"startBlockHeight: int"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span><span class="hljs-symbol">:</span><span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span><span class="hljs-symbol">:</span><span class="hljs-string">"Explorer.getLastExecutionsByRange"</span>,<span class="hljs-string">"params"</span><span class="hljs-symbol">:</span>[startBlockHeig<span class="hljs-symbol">ht:</span> <span class="hljs-built_in">int</span>, offs<span class="hljs-symbol">et:</span> <span class="hljs-built_in">int</span>, lim<span class="hljs-symbol">it:</span> <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span><span class="hljs-symbol">:1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetexecutionbyid"></a><a href="#explorergetexecutionbyid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getExecutionByID</h2>
 <p>get execution from execution id</p>
@@ -427,7 +400,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-14"></a><a href="#example-14" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getExecutionByID"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"executionID: string"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getExecutionByID"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[executionID: string]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetexecutionsbyaddress"></a><a href="#explorergetexecutionsbyaddress" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getExecutionsByAddress</h2>
 <p>get list of executions belonging to an address</p>
@@ -458,7 +431,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-15"></a><a href="#example-15" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getExecutionsByAddress"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"address: string"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getExecutionsByAddress"</span>,<span class="hljs-string">"params"</span>:[address: <span class="hljs-built_in">string</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetunconfirmedexecutionsbyaddress"></a><a href="#explorergetunconfirmedexecutionsbyaddress" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getUnconfirmedExecutionsByAddress</h2>
 <p>get list of unconfirmed executions in actpool belonging to an address</p>
@@ -489,7 +462,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-16"></a><a href="#example-16" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getUnconfirmedExecutionsByAddress"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"address: string"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getUnconfirmedExecutionsByAddress"</span>,<span class="hljs-string">"params"</span>:[address: <span class="hljs-built_in">string</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetexecutionsbyblockid"></a><a href="#explorergetexecutionsbyblockid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getExecutionsByBlockID</h2>
 <p>get all executions in a block</p>
@@ -520,7 +493,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-17"></a><a href="#example-17" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getExecutionsByBlockID"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"blkID: string"</span>, <span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X <span class="hljs-type">POST</span> --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getExecutionsByBlockID"</span>,<span class="hljs-string">"params"</span>:[blkID: <span class="hljs-built_in">string</span>, offset: <span class="hljs-built_in">int</span>, limit: <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetlastblocksbyrange"></a><a href="#explorergetlastblocksbyrange" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getLastBlocksByRange</h2>
 <p>get list of blocks by block id offset and limit</p>
@@ -546,7 +519,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-18"></a><a href="#example-18" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getLastBlocksByRange"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"offset: int"</span>, <span class="hljs-string">"limit: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span><span class="hljs-symbol">:</span><span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span><span class="hljs-symbol">:</span><span class="hljs-string">"Explorer.getLastBlocksByRange"</span>,<span class="hljs-string">"params"</span><span class="hljs-symbol">:</span>[offs<span class="hljs-symbol">et:</span> <span class="hljs-built_in">int</span>, lim<span class="hljs-symbol">it:</span> <span class="hljs-built_in">int</span>],<span class="hljs-string">"id"</span><span class="hljs-symbol">:1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetblockbyid"></a><a href="#explorergetblockbyid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getBlockByID</h2>
 <p>get block by block id</p>
@@ -567,7 +540,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-19"></a><a href="#example-19" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getBlockByID"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"blkID: string"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getBlockByID"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[blkID: string]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetcoinstatistic"></a><a href="#explorergetcoinstatistic" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getCoinStatistic</h2>
 <p>get statistic of iotx</p>
@@ -633,7 +606,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-23"></a><a href="#example-23" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getCandidateMetricsByHeight"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"h: int"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getCandidateMetricsByHeight"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[h: int]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorersendtransfer"></a><a href="#explorersendtransfer" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.sendTransfer</h2>
 <p>send transfer</p>
@@ -654,7 +627,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-24"></a><a href="#example-24" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.sendTransfer"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"request: SendTransferRequest"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.sendTransfer"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[request: SendTransferRequest]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorersendvote"></a><a href="#explorersendvote" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.sendVote</h2>
 <p>send vote</p>
@@ -675,7 +648,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-25"></a><a href="#example-25" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.sendVote"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"request: SendVoteRequest"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.sendVote"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[request: SendVoteRequest]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorersendsmartcontract"></a><a href="#explorersendsmartcontract" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.sendSmartContract</h2>
 <p>sendSmartContract</p>
@@ -696,7 +669,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-26"></a><a href="#example-26" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.sendSmartContract"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"request: Execution"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.sendSmartContract"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[request: Execution]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorerputsubchainblock"></a><a href="#explorerputsubchainblock" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.putSubChainBlock</h2>
 <p>putSubChainBlock</p>
@@ -717,7 +690,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-27"></a><a href="#example-27" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.putSubChainBlock"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"request: PutSubChainBlockRequest"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.putSubChainBlock"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[request: PutSubChainBlockRequest]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetpeers"></a><a href="#explorergetpeers" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getPeers</h2>
 <p>get list of peers</p>
@@ -753,7 +726,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-29"></a><a href="#example-29" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getReceiptByExecutionID"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"id: string"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getReceiptByExecutionID"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[id: string]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorerreadexecutionstate"></a><a href="#explorerreadexecutionstate" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.readExecutionState</h2>
 <p>read execution state</p>
@@ -774,7 +747,7 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-30"></a><a href="#example-30" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.readExecutionState"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"request: Execution"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.readExecutionState"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[request: Execution]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="explorergetblockoractionbyhash"></a><a href="#explorergetblockoractionbyhash" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer.getBlockOrActionByHash</h2>
 <p>get block or action by a hash</p>
@@ -795,6 +768,627 @@
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="example-31"></a><a href="#example-31" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h3>
-<pre><code class="hljs">curl -X POST <span class="hljs-params">--data</span> '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getBlockOrActionByHash"</span>,<span class="hljs-string">"params"</span>:[<span class="hljs-string">"hashStr: string"</span>],<span class="hljs-string">"id"</span><span class="hljs-function">:1</span>}'
+<pre><code class="hljs">curl -X POST --data '{<span class="hljs-string">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-string">"method"</span>:<span class="hljs-string">"Explorer.getBlockOrActionByHash"</span>,<span class="hljs-string">"params"</span>:<span class="hljs-string">[hashStr: string]</span>,<span class="hljs-string">"id"</span>:<span class="hljs-number">1</span>}'
 </code></pre>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/iotex-client-js"><span class="arrow-prev">← </span><span>Previous</span></a></div></div></div><nav class="onPageNav docOnPageNav"><ul class="toc-headings"><li><a href="#explorergetblockchainheight">Explorer.getBlockchainHeight</a><ul class="toc-headings"><li><a href="#parameters">Parameters</a></li><li><a href="#returns">Returns</a></li><li><a href="#example">Example</a></li></ul></li><li><a href="#explorergetaddressbalance">Explorer.getAddressBalance</a><ul class="toc-headings"><li><a href="#parameters-1">Parameters</a></li><li><a href="#returns-1">Returns</a></li><li><a href="#example-1">Example</a></li></ul></li><li><a href="#explorergetaddressdetails">Explorer.getAddressDetails</a><ul class="toc-headings"><li><a href="#parameters-2">Parameters</a></li><li><a href="#returns-2">Returns</a></li><li><a href="#example-2">Example</a></li></ul></li><li><a href="#explorergetlasttransfersbyrange">Explorer.getLastTransfersByRange</a><ul class="toc-headings"><li><a href="#parameters-3">Parameters</a></li><li><a href="#returns-3">Returns</a></li><li><a href="#example-3">Example</a></li></ul></li><li><a href="#explorergettransferbyid">Explorer.getTransferByID</a><ul class="toc-headings"><li><a href="#parameters-4">Parameters</a></li><li><a href="#returns-4">Returns</a></li><li><a href="#example-4">Example</a></li></ul></li><li><a href="#explorergettransfersbyaddress">Explorer.getTransfersByAddress</a><ul class="toc-headings"><li><a href="#parameters-5">Parameters</a></li><li><a href="#returns-5">Returns</a></li><li><a href="#example-5">Example</a></li></ul></li><li><a href="#explorergetunconfirmedtransfersbyaddress">Explorer.getUnconfirmedTransfersByAddress</a><ul class="toc-headings"><li><a href="#parameters-6">Parameters</a></li><li><a href="#returns-6">Returns</a></li><li><a href="#example-6">Example</a></li></ul></li><li><a href="#explorergettransfersbyblockid">Explorer.getTransfersByBlockID</a><ul class="toc-headings"><li><a href="#parameters-7">Parameters</a></li><li><a href="#returns-7">Returns</a></li><li><a href="#example-7">Example</a></li></ul></li><li><a href="#explorergetlastvotesbyrange">Explorer.getLastVotesByRange</a><ul class="toc-headings"><li><a href="#parameters-8">Parameters</a></li><li><a href="#returns-8">Returns</a></li><li><a href="#example-8">Example</a></li></ul></li><li><a href="#explorergetvotebyid">Explorer.getVoteByID</a><ul class="toc-headings"><li><a href="#parameters-9">Parameters</a></li><li><a href="#returns-9">Returns</a></li><li><a href="#example-9">Example</a></li></ul></li><li><a href="#explorergetvotesbyaddress">Explorer.getVotesByAddress</a><ul class="toc-headings"><li><a href="#parameters-10">Parameters</a></li><li><a href="#returns-10">Returns</a></li><li><a href="#example-10">Example</a></li></ul></li><li><a href="#explorergetunconfirmedvotesbyaddress">Explorer.getUnconfirmedVotesByAddress</a><ul class="toc-headings"><li><a href="#parameters-11">Parameters</a></li><li><a href="#returns-11">Returns</a></li><li><a href="#example-11">Example</a></li></ul></li><li><a href="#explorergetvotesbyblockid">Explorer.getVotesByBlockID</a><ul class="toc-headings"><li><a href="#parameters-12">Parameters</a></li><li><a href="#returns-12">Returns</a></li><li><a href="#example-12">Example</a></li></ul></li><li><a href="#explorergetlastexecutionsbyrange">Explorer.getLastExecutionsByRange</a><ul class="toc-headings"><li><a href="#parameters-13">Parameters</a></li><li><a href="#returns-13">Returns</a></li><li><a href="#example-13">Example</a></li></ul></li><li><a href="#explorergetexecutionbyid">Explorer.getExecutionByID</a><ul class="toc-headings"><li><a href="#parameters-14">Parameters</a></li><li><a href="#returns-14">Returns</a></li><li><a href="#example-14">Example</a></li></ul></li><li><a href="#explorergetexecutionsbyaddress">Explorer.getExecutionsByAddress</a><ul class="toc-headings"><li><a href="#parameters-15">Parameters</a></li><li><a href="#returns-15">Returns</a></li><li><a href="#example-15">Example</a></li></ul></li><li><a href="#explorergetunconfirmedexecutionsbyaddress">Explorer.getUnconfirmedExecutionsByAddress</a><ul class="toc-headings"><li><a href="#parameters-16">Parameters</a></li><li><a href="#returns-16">Returns</a></li><li><a href="#example-16">Example</a></li></ul></li><li><a href="#explorergetexecutionsbyblockid">Explorer.getExecutionsByBlockID</a><ul class="toc-headings"><li><a href="#parameters-17">Parameters</a></li><li><a href="#returns-17">Returns</a></li><li><a href="#example-17">Example</a></li></ul></li><li><a href="#explorergetlastblocksbyrange">Explorer.getLastBlocksByRange</a><ul class="toc-headings"><li><a href="#parameters-18">Parameters</a></li><li><a href="#returns-18">Returns</a></li><li><a href="#example-18">Example</a></li></ul></li><li><a href="#explorergetblockbyid">Explorer.getBlockByID</a><ul class="toc-headings"><li><a href="#parameters-19">Parameters</a></li><li><a href="#returns-19">Returns</a></li><li><a href="#example-19">Example</a></li></ul></li><li><a href="#explorergetcoinstatistic">Explorer.getCoinStatistic</a><ul class="toc-headings"><li><a href="#parameters-20">Parameters</a></li><li><a href="#returns-20">Returns</a></li><li><a href="#example-20">Example</a></li></ul></li><li><a href="#explorergetconsensusmetrics">Explorer.getConsensusMetrics</a><ul class="toc-headings"><li><a href="#parameters-21">Parameters</a></li><li><a href="#returns-21">Returns</a></li><li><a href="#example-21">Example</a></li></ul></li><li><a href="#explorergetcandidatemetrics">Explorer.getCandidateMetrics</a><ul class="toc-headings"><li><a href="#parameters-22">Parameters</a></li><li><a href="#returns-22">Returns</a></li><li><a href="#example-22">Example</a></li></ul></li><li><a href="#explorergetcandidatemetricsbyheight">Explorer.getCandidateMetricsByHeight</a><ul class="toc-headings"><li><a href="#parameters-23">Parameters</a></li><li><a href="#returns-23">Returns</a></li><li><a href="#example-23">Example</a></li></ul></li><li><a href="#explorersendtransfer">Explorer.sendTransfer</a><ul class="toc-headings"><li><a href="#parameters-24">Parameters</a></li><li><a href="#returns-24">Returns</a></li><li><a href="#example-24">Example</a></li></ul></li><li><a href="#explorersendvote">Explorer.sendVote</a><ul class="toc-headings"><li><a href="#parameters-25">Parameters</a></li><li><a href="#returns-25">Returns</a></li><li><a href="#example-25">Example</a></li></ul></li><li><a href="#explorersendsmartcontract">Explorer.sendSmartContract</a><ul class="toc-headings"><li><a href="#parameters-26">Parameters</a></li><li><a href="#returns-26">Returns</a></li><li><a href="#example-26">Example</a></li></ul></li><li><a href="#explorerputsubchainblock">Explorer.putSubChainBlock</a><ul class="toc-headings"><li><a href="#parameters-27">Parameters</a></li><li><a href="#returns-27">Returns</a></li><li><a href="#example-27">Example</a></li></ul></li><li><a href="#explorergetpeers">Explorer.getPeers</a><ul class="toc-headings"><li><a href="#parameters-28">Parameters</a></li><li><a href="#returns-28">Returns</a></li><li><a href="#example-28">Example</a></li></ul></li><li><a href="#explorergetreceiptbyexecutionid">Explorer.getReceiptByExecutionID</a><ul class="toc-headings"><li><a href="#parameters-29">Parameters</a></li><li><a href="#returns-29">Returns</a></li><li><a href="#example-29">Example</a></li></ul></li><li><a href="#explorerreadexecutionstate">Explorer.readExecutionState</a><ul class="toc-headings"><li><a href="#parameters-30">Parameters</a></li><li><a href="#returns-30">Returns</a></li><li><a href="#example-30">Example</a></li></ul></li><li><a href="#explorergetblockoractionbyhash">Explorer.getBlockOrActionByHash</a><ul class="toc-headings"><li><a href="#parameters-31">Parameters</a></li><li><a href="#returns-31">Returns</a></li><li><a href="#example-31">Example</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="//iotex.io/logo.svg" alt="IoTeX Documentations" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 iotex.io</section></footer></div></body></html>
+<pre><code class="hljs css language-{">  "<span class="hljs-keyword">comment</span><span class="hljs-string">": "",
+  "</span>functions<span class="hljs-string">": [
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> the blockchain tip height<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getBlockchainHeight<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> the balance <span class="hljs-keyword">of</span> an address<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>address<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getAddressBalance<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> the address detail <span class="hljs-keyword">of</span> an iotex address<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>AddressDetails<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>address<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getAddressDetails<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> transfers <span class="hljs-keyword">by</span> <span class="hljs-keyword">start</span> <span class="hljs-keyword">block</span> height, transfer <span class="hljs-keyword">offset</span> <span class="hljs-keyword">and</span> <span class="hljs-keyword">limit</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Transfer<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>startBlockHeight<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">bool</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>showCoinBase<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getLastTransfersByRange<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> transfers <span class="hljs-keyword">from</span> <span class="hljs-keyword">transaction</span> <span class="hljs-keyword">id</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Transfer<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>transferID<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getTransferByID<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> transfers belonging <span class="hljs-keyword">to</span> an address<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Transfer<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>address<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getTransfersByAddress<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> unconfirmed transfers <span class="hljs-keyword">in</span> actpool belonging <span class="hljs-keyword">to</span> an address<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Transfer<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>address<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getUnconfirmedTransfersByAddress<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> all transfers <span class="hljs-keyword">in</span> a <span class="hljs-keyword">block</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Transfer<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>blkID<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getTransfersByBlockID<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> votes <span class="hljs-keyword">by</span> <span class="hljs-keyword">start</span> <span class="hljs-keyword">block</span> height, vote <span class="hljs-keyword">offset</span> <span class="hljs-keyword">and</span> <span class="hljs-keyword">limit</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Vote<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>startBlockHeight<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getLastVotesByRange<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> vote <span class="hljs-keyword">from</span> vote <span class="hljs-keyword">id</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Vote<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>voteID<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getVoteByID<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> votes belonging <span class="hljs-keyword">to</span> an address<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Vote<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>address<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getVotesByAddress<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> unconfirmed votes <span class="hljs-keyword">in</span> actpool belonging <span class="hljs-keyword">to</span> an address<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Vote<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>address<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getUnconfirmedVotesByAddress<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> all votes <span class="hljs-keyword">in</span> a <span class="hljs-keyword">block</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Vote<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>blkID<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getVotesByBlockID<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> executions <span class="hljs-keyword">by</span> <span class="hljs-keyword">start</span> <span class="hljs-keyword">block</span> height, execution <span class="hljs-keyword">offset</span> <span class="hljs-keyword">and</span> <span class="hljs-keyword">limit</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Execution<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>startBlockHeight<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getLastExecutionsByRange<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> execution <span class="hljs-keyword">from</span> execution <span class="hljs-keyword">id</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Execution<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>executionID<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getExecutionByID<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> executions belonging <span class="hljs-keyword">to</span> an address<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Execution<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>address<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getExecutionsByAddress<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> unconfirmed executions <span class="hljs-keyword">in</span> actpool belonging <span class="hljs-keyword">to</span> an address<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Execution<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>address<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getUnconfirmedExecutionsByAddress<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> all executions <span class="hljs-keyword">in</span> a <span class="hljs-keyword">block</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Execution<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>blkID<span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getExecutionsByBlockID<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> blocks <span class="hljs-keyword">by</span> <span class="hljs-keyword">block</span> <span class="hljs-keyword">id</span> <span class="hljs-keyword">offset</span> <span class="hljs-keyword">and</span> <span class="hljs-keyword">limit</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": true,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">Block</span><span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">offset</span><span class="hljs-string">"
+        },
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">limit</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getLastBlocksByRange<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">block</span> <span class="hljs-keyword">by</span> <span class="hljs-keyword">block</span> <span class="hljs-keyword">id</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">Block</span><span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>blkID<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getBlockByID<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> statistic <span class="hljs-keyword">of</span> iotx<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>CoinStatistic<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getCoinStatistic<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> consensus metrics<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>ConsensusMetrics<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getConsensusMetrics<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> candidates metrics<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>CandidateMetrics<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getCandidateMetrics<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> candidates metrics <span class="hljs-keyword">at</span> given height<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>CandidateMetrics<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-built_in">int</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>h<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getCandidateMetricsByHeight<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span>send transfer<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>SendTransferResponse<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>SendTransferRequest<span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>request<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>sendTransfer<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span>send vote<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>SendVoteResponse<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>SendVoteRequest<span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>request<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>sendVote<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span>sendSmartContract<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>SendSmartContractResponse<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Execution<span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>request<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>sendSmartContract<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span>putSubChainBlock<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>PutSubChainBlockResponse<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>PutSubChainBlockRequest<span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>request<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>putSubChainBlock<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">list</span> <span class="hljs-keyword">of</span> peers<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>GetPeersResponse<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getPeers<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> receipt <span class="hljs-keyword">by</span> execution <span class="hljs-keyword">id</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Receipt<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span><span class="hljs-keyword">id</span><span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getReceiptByExecutionID<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">read</span> execution state<span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>Execution<span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>request<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>readExecutionState<span class="hljs-string">"
+    },
+    {
+      "</span><span class="hljs-keyword">comment</span><span class="hljs-string">": "</span><span class="hljs-keyword">get</span> <span class="hljs-keyword">block</span> <span class="hljs-keyword">or</span> <span class="hljs-keyword">action</span> <span class="hljs-keyword">by</span> a <span class="hljs-keyword">hash</span><span class="hljs-string">",
+      "</span><span class="hljs-keyword">returns</span><span class="hljs-string">": {
+        "</span>optional<span class="hljs-string">": false,
+        "</span>is_array<span class="hljs-string">": false,
+        "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span>GetBlkOrActResponse<span class="hljs-string">"
+      },
+      "</span>params<span class="hljs-string">": [
+        {
+          "</span>is_array<span class="hljs-string">": false,
+          "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">string</span><span class="hljs-string">",
+          "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>hashStr<span class="hljs-string">"
+        }
+      ],
+      "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>getBlockOrActionByHash<span class="hljs-string">"
+    }
+  ],
+  "</span><span class="hljs-keyword">type</span><span class="hljs-string">": "</span><span class="hljs-keyword">interface</span><span class="hljs-string">",
+  "</span><span class="hljs-keyword">name</span><span class="hljs-string">": "</span>Explorer<span class="hljs-string">"
+}```
+              
+
+</span></code></pre>
+</span></div></div></div></div></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="//iotex.io/logo.svg" alt="IoTeX Documentations" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/doc1.html">Getting Started (or other categories)</a><a href="/docs/doc2.html">Guides (or other categories)</a><a href="/docs/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 iotex.io</section></footer></div></body></html>
