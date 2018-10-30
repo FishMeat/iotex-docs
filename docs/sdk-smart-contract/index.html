@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Smart Contract · IoTeX Documentations</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="IoTeX is a Decentralized Network for Internet of Things Powered by a Privacy-Centric Blockchain."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Smart Contract · IoTeX Documentations"/><meta property="og:type" content="website"/><meta property="og:url" content="http://docs.iotex.me//index.html"/><meta property="og:description" content="IoTeX is a Decentralized Network for Internet of Things Powered by a Privacy-Centric Blockchain."/><meta property="og:image" content="http://docs.iotex.me/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="http://docs.iotex.me/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="//iotex.io/logo.svg" alt="IoTeX Documentations"/><h2 class="headerTitleWithLogo">IoTeX Documentations</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/guides" target="_self">Guides</a></li><li class="siteNavGroupActive"><a href="/docs/sdk-overview" target="_self">SDK</a></li><li class=""><a href="https://github.com/iotexproject/" target="_blank">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>JS SDK (iotex-client-js)</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul><li class="navListItem"><a class="navItem" href="/docs/sdk-overview">SDK Overview</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">JS SDK (iotex-client-js)</h3><ul><li class="navListItem"><a class="navItem" href="/docs/sdk-account">Account</a></li><li class="navListItem"><a class="navItem" href="/docs/sdk-methods">RPC methods</a></li><li class="navListItem"><a class="navItem" href="/docs/sdk-transfer">Transfer</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/sdk-smart-contract">Smart Contract</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Reference</h3><ul><li class="navListItem"><a class="navItem" href="/docs/iotex-client-js">iotex-client-js v0.0.7</a></li><li class="navListItem"><a class="navItem" href="/docs/iotex-core-json-rpc">JSON RPC for iotex-core</a></li></ul></div></div></section></div><script>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Smart Contract · IoTeX Documentations</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="The `iotx.Contract` class makes it easy to interact with smart contracts on the iotex blockchain. When you create a new contract object you give it the json interface of the respective smart contract and it will auto converts all calls into low level ABI calls over RPC for you."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Smart Contract · IoTeX Documentations"/><meta property="og:type" content="website"/><meta property="og:url" content="http://docs.iotex.me//index.html"/><meta property="og:description" content="The `iotx.Contract` class makes it easy to interact with smart contracts on the iotex blockchain. When you create a new contract object you give it the json interface of the respective smart contract and it will auto converts all calls into low level ABI calls over RPC for you."/><meta property="og:image" content="http://docs.iotex.me/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="http://docs.iotex.me/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="//iotex.io/logo.svg" alt="IoTeX Documentations"/><h2 class="headerTitleWithLogo">IoTeX Documentations</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/guides" target="_self">Guides</a></li><li class="siteNavGroupActive"><a href="/docs/sdk-overview" target="_self">SDK</a></li><li class=""><a href="https://github.com/iotexproject/" target="_blank">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>JS Quick Start</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul><li class="navListItem"><a class="navItem" href="/docs/sdk-overview">SDK Overview</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">JS Quick Start</h3><ul><li class="navListItem"><a class="navItem" href="/docs/sdk-account">Account</a></li><li class="navListItem"><a class="navItem" href="/docs/sdk-rpc-methods">RPC methods</a></li><li class="navListItem"><a class="navItem" href="/docs/sdk-transfer">Transfer</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/sdk-smart-contract">Smart Contract</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Reference</h3><ul><li class="navListItem"><a class="navItem" href="/docs/iotex-client-js">iotex-client-js v0.0.7</a></li><li class="navListItem"><a class="navItem" href="/docs/json-rpc">JSON RPC</a></li></ul></div></div></section></div><script>
             document.addEventListener('DOMContentLoaded', function() {
               createToggler('#navToggler', '#docsNav', 'docsSliderActive');
               createToggler('#tocToggler', 'body', 'tocActive');
@@ -25,4 +25,139 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docMainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Smart Contract</h1></header><article><div><span></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/sdk-transfer"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/docs/iotex-client-js"><span>Next</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav docOnPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="//iotex.io/logo.svg" alt="IoTeX Documentations" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 iotex.io</section></footer></div></body></html>
+        </script></nav></div><div class="container mainContainer docMainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Smart Contract</h1></header><article><div><span><p>The <code>iotx.Contract</code> class makes it easy to interact with smart contracts on the iotex blockchain. When you create a new contract object you give it the json interface of the respective smart contract and it will auto converts all calls into low level ABI calls over RPC for you.</p>
+<p>This allows you to interact with smart contracts as if they were JavaScript objects.</p>
+<h2><a class="anchor" aria-hidden="true" id="compiling-solidity"></a><a href="#compiling-solidity" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compiling Solidity</h2>
+<p><code>iotex-client-js</code> does not compile solidity. However, you can use the following ways to get ABI and bytecode.</p>
+<ol>
+<li><p>option 1: use <a href="https://iotexscan.io/wallet">https://iotexscan.io/wallet</a></p></li>
+<li><p>option 2: in Node.js, use <a href="https://www.npmjs.com/package/solc"><code>solc</code></a></p></li>
+</ol>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> solc <span class="hljs-keyword">from</span> <span class="hljs-string">'solc'</span>;
+
+<span class="hljs-keyword">const</span> solidityFileString = <span class="hljs-string">`
+pragma solidity ^0.4.0;
+
+contract SimpleStorage {
+   uint storedData;
+
+   function set(uint x) public {
+       storedData = x;
+   }
+
+   function get() public view returns (uint) {
+       return storedData;
+   }
+}
+`</span>;
+<span class="hljs-keyword">const</span> contractName = <span class="hljs-string">':SimpleStorage'</span>;
+<span class="hljs-keyword">const</span> output = solc.compile(solidityFileString, <span class="hljs-number">1</span>);
+<span class="hljs-keyword">const</span> abi = <span class="hljs-built_in">JSON</span>.parse(output.contracts[contractName].interface);
+<span class="hljs-keyword">const</span> bytecode = output.contracts[contractName].bytecode;
+</code></pre>
+<ol start="3">
+<li>option 3: in browser, use <a href="https://www.npmjs.com/package/browser-solc">browser-solc</a></li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="deploying-contract"></a><a href="#deploying-contract" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deploying Contract</h2>
+<p>Once you get the abi and bytecode from the above step, then you can deploy it by sending the execution to the iotex blockchain network.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> {Iotx, HttpProvider} <span class="hljs-keyword">from</span> <span class="hljs-string">'iotex-client-js'</span>;
+
+<span class="hljs-keyword">const</span> contractName = <span class="hljs-string">':SimpleStorage'</span>;
+<span class="hljs-keyword">const</span> abi = [
+  {
+    <span class="hljs-string">"constant"</span>: <span class="hljs-literal">false</span>,
+    <span class="hljs-string">"inputs"</span>: [
+      {
+        <span class="hljs-string">"name"</span>: <span class="hljs-string">"x"</span>,
+        <span class="hljs-string">"type"</span>: <span class="hljs-string">"uint256"</span>
+      }
+    ],
+    <span class="hljs-string">"name"</span>: <span class="hljs-string">"set"</span>,
+    <span class="hljs-string">"outputs"</span>: [],
+    <span class="hljs-string">"payable"</span>: <span class="hljs-literal">false</span>,
+    <span class="hljs-string">"stateMutability"</span>: <span class="hljs-string">"nonpayable"</span>,
+    <span class="hljs-string">"type"</span>: <span class="hljs-string">"function"</span>
+  },
+  {
+    <span class="hljs-string">"constant"</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-string">"inputs"</span>: [],
+    <span class="hljs-string">"name"</span>: <span class="hljs-string">"get"</span>,
+    <span class="hljs-string">"outputs"</span>: [
+      {
+        <span class="hljs-string">"name"</span>: <span class="hljs-string">""</span>,
+        <span class="hljs-string">"type"</span>: <span class="hljs-string">"uint256"</span>
+      }
+    ],
+    <span class="hljs-string">"payable"</span>: <span class="hljs-literal">false</span>,
+    <span class="hljs-string">"stateMutability"</span>: <span class="hljs-string">"view"</span>,
+    <span class="hljs-string">"type"</span>: <span class="hljs-string">"function"</span>
+  }
+]
+<span class="hljs-keyword">const</span> bytecode = <span class="hljs-string">"608060405234801561001057600080fd5b5060bf8061001f6000396000f30060806040526004361060485763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166360fe47b18114604d5780636d4ce63c146064575b600080fd5b348015605857600080fd5b5060626004356088565b005b348015606f57600080fd5b506076608d565b60408051918252519081900360200190f35b600055565b600054905600a165627a7a723058208236d8b2917002adfa862bbd8ea837cd90c6d76c5f0d7e1a0a7549faece1559f0029"</span>
+
+<span class="hljs-keyword">const</span> provider = <span class="hljs-keyword">new</span> HttpProvider(<span class="hljs-string">'http://localhost:14004/'</span>);
+<span class="hljs-keyword">const</span> iotx = <span class="hljs-keyword">new</span> Iotx(provider);
+<span class="hljs-keyword">const</span> wallet = <span class="hljs-keyword">await</span> iotx.accounts.add(<span class="hljs-string">'c5364b1a2d99d127439be22edfd657889981e9ba4d6d18fe8eca489d48485371efcb2400'</span>);
+<span class="hljs-keyword">const</span> contract = <span class="hljs-keyword">new</span> iotx.Contract({abi, contractName, wallet});
+<span class="hljs-keyword">const</span> exec = <span class="hljs-keyword">await</span> contract.deploy({
+  <span class="hljs-attr">byteCode</span>: bytecode,
+  <span class="hljs-attr">gasLimit</span>: <span class="hljs-number">100000</span>,
+  <span class="hljs-attr">gasPrice</span>: <span class="hljs-string">'0'</span>,
+  <span class="hljs-attr">version</span>: <span class="hljs-number">1</span>,
+  <span class="hljs-attr">contract</span>: <span class="hljs-string">''</span>,
+  <span class="hljs-attr">amount</span>: <span class="hljs-string">'1'</span>,
+});
+<span class="hljs-comment">// =&gt; {</span>
+<span class="hljs-comment">//   "version": 0,</span>
+<span class="hljs-comment">//   "ID": "a8d0217421a626b6f0670f7e020fd88d9aab984d179621182fa5b8a3870c41e2",</span>
+<span class="hljs-comment">//   "nonce": 23,</span>
+<span class="hljs-comment">//   "executor": "io1qyqsqqqq26zujam2gt5cut0ggu8pa4d5q7hnrvsvace4x6",</span>
+<span class="hljs-comment">//   "contract": "",</span>
+<span class="hljs-comment">//   "amount": "1",</span>
+<span class="hljs-comment">//   "executorPubKey": "",</span>
+<span class="hljs-comment">//   "signature": "",</span>
+<span class="hljs-comment">//   "gasLimit": 100000,</span>
+<span class="hljs-comment">//   "gasPrice": "0",</span>
+<span class="hljs-comment">//   "timestamp": 0,</span>
+<span class="hljs-comment">//   "data": "",</span>
+<span class="hljs-comment">//   "blockID": "",</span>
+<span class="hljs-comment">//   "isPending": true</span>
+<span class="hljs-comment">// }</span>
+</code></pre>
+<p>And then you can query its receipt.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">const</span> receipt = <span class="hljs-keyword">await</span> iotx.rpcMethods.getReceiptByExecutionID(exec.ID);
+<span class="hljs-comment">// =&gt; {</span>
+<span class="hljs-comment">//   returnValue: '',</span>
+<span class="hljs-comment">//   status: 1,</span>
+<span class="hljs-comment">//   hash: '7eb31c95ae0066c17699f6ca7d30b2e3f654794c7c30d9af06118f4f459f56ae',</span>
+<span class="hljs-comment">//   gasConsumed: 10000,</span>
+<span class="hljs-comment">//   contractAddress: 'io1qyqsqqqqgh345g9zle6qg7txkumkshluqd2p0yj0n7e50m',</span>
+<span class="hljs-comment">//   logs: []</span>
+<span class="hljs-comment">// }</span>
+
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="interacting-with-smart-contract"></a><a href="#interacting-with-smart-contract" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interacting with Smart Contract</h2>
+<p>After you get the contract address from the receipt, you can interact with the contract by preparing the methods first, and then call contract functions.
+There are methods <code>set</code> and <code>get</code> in the example contract <code>SimpleStorage</code> defined in the <a href="#compiling-solidity">solidity string above</a>, so you can call them as the following.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">await</span> contract
+.prepareMethods({
+     <span class="hljs-attr">contractAddress</span>: receipt.contractAddress,
+     <span class="hljs-attr">gasLimit</span>: <span class="hljs-number">100000</span>,
+     <span class="hljs-attr">gasPrice</span>: <span class="hljs-string">'0'</span>,
+     <span class="hljs-attr">version</span>: <span class="hljs-number">1</span>,
+     <span class="hljs-attr">amount</span>: <span class="hljs-string">'0'</span>,
+   })
+.set(<span class="hljs-number">666</span>);
+
+<span class="hljs-keyword">const</span> value = <span class="hljs-keyword">await</span> contract
+.prepareMethods({
+     <span class="hljs-attr">contractAddress</span>: receipt.contractAddress,
+     <span class="hljs-attr">gasLimit</span>: <span class="hljs-number">100000</span>,
+     <span class="hljs-attr">gasPrice</span>: <span class="hljs-string">'0'</span>,
+     <span class="hljs-attr">version</span>: <span class="hljs-number">1</span>,
+     <span class="hljs-attr">amount</span>: <span class="hljs-string">'0'</span>,
+   })
+.get();
+</code></pre>
+<p>Need more detailed API references? Please visit <a href="/docs/iotex-client-js#contract">iotx.Contract</a></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/sdk-transfer"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/docs/iotex-client-js"><span>Next</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav docOnPageNav"><ul class="toc-headings"><li><a href="#compiling-solidity">Compiling Solidity</a></li><li><a href="#deploying-contract">Deploying Contract</a></li><li><a href="#interacting-with-smart-contract">Interacting with Smart Contract</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="//iotex.io/logo.svg" alt="IoTeX Documentations" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 iotex.io</section></footer></div></body></html>
