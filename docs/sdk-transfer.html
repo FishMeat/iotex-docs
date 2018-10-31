@@ -42,37 +42,39 @@
         </script></nav></div><div class="container mainContainer docMainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/iotexproject/iotex-docs/edit/master/docs/sdk-transfer.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Transfer</h1></header><article><div><span><p><code>iotx.sendTransfer</code> create, sign, and send a transaction of transfer to iotex blockchain network.</p>
 <pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> {Iotx, HttpProvider} <span class="hljs-keyword">from</span> <span class="hljs-string">'iotex-client-js'</span>;
 
-<span class="hljs-keyword">const</span> iotx = <span class="hljs-keyword">new</span> Iotx(<span class="hljs-keyword">new</span> HttpProvider(<span class="hljs-string">'http://127.0.0.1:14004'</span>));
-<span class="hljs-keyword">const</span> unlockedWallet = <span class="hljs-keyword">await</span> iotx.accounts.add(<span class="hljs-string">'c5364b1a2d99d127439be22edfd657889981e9ba4d6d18fe8eca489d48485371efcb2400'</span>);
-<span class="hljs-keyword">const</span> receipt = <span class="hljs-keyword">await</span> iotx.sendTransfer({
-  <span class="hljs-attr">amount</span>: <span class="hljs-string">'1'</span>,
-  <span class="hljs-attr">sender</span>: unlockedWallet.rawAddress,
-  <span class="hljs-attr">senderPubKey</span>: unlockedWallet.publicKey,
-  <span class="hljs-attr">recipient</span>: <span class="hljs-string">'io1qyqsqqqqcz8twkf0v55y04jr8cwmfk7q3lgjycyzjq0tx4'</span>,
-  <span class="hljs-attr">gasPrice</span>: <span class="hljs-string">'1'</span>,
-  <span class="hljs-attr">gasLimit</span>: <span class="hljs-number">10000</span>,
-});
-<span class="hljs-comment">// receipt return value =&gt; {</span>
-<span class="hljs-comment">//   "version": 0,</span>
-<span class="hljs-comment">//   "ID": "1b0252bd7addfa0920f61b222887743e42eacf9b607de45fa18a59e769cf674b",</span>
-<span class="hljs-comment">//   "nonce": 20,</span>
-<span class="hljs-comment">//   "sender": "io1qyqsqqqq26zujam2gt5cut0ggu8pa4d5q7hnrvsvace4x6",</span>
-<span class="hljs-comment">//   "recipient": "io1qyqsqqqqcz8twkf0v55y04jr8cwmfk7q3lgjycyzjq0tx4",</span>
-<span class="hljs-comment">//   "amount": "1",</span>
-<span class="hljs-comment">//   "senderPubKey": "",</span>
-<span class="hljs-comment">//   "signature": "",</span>
-<span class="hljs-comment">//   "payload": "",</span>
-<span class="hljs-comment">//   "gasLimit": 10000,</span>
-<span class="hljs-comment">//   "gasPrice": "1",</span>
-<span class="hljs-comment">//   "isCoinbase": false,</span>
-<span class="hljs-comment">//   "fee": "",</span>
-<span class="hljs-comment">//   "timestamp": 0,</span>
-<span class="hljs-comment">//   "blockID": "",</span>
-<span class="hljs-comment">//   "isPending": true</span>
-<span class="hljs-comment">// }</span>
+<span class="hljs-function">(<span class="hljs-params"><span class="hljs-keyword">async</span> (</span>) =&gt;</span> {
+  <span class="hljs-keyword">const</span> iotx = <span class="hljs-keyword">new</span> Iotx(<span class="hljs-keyword">new</span> HttpProvider(<span class="hljs-string">'http://127.0.0.1:14004'</span>));
+  <span class="hljs-keyword">const</span> unlockedWallet = <span class="hljs-keyword">await</span> iotx.accounts.add(<span class="hljs-string">'c5364b1a2d99d127439be22edfd657889981e9ba4d6d18fe8eca489d48485371efcb2400'</span>);
+  <span class="hljs-keyword">const</span> receipt = <span class="hljs-keyword">await</span> iotx.sendTransfer({
+    <span class="hljs-attr">amount</span>: <span class="hljs-string">'1'</span>,
+    <span class="hljs-attr">sender</span>: unlockedWallet.rawAddress,
+    <span class="hljs-attr">senderPubKey</span>: unlockedWallet.publicKey,
+    <span class="hljs-attr">recipient</span>: <span class="hljs-string">'io1qyqsqqqqcz8twkf0v55y04jr8cwmfk7q3lgjycyzjq0tx4'</span>,
+    <span class="hljs-attr">gasPrice</span>: <span class="hljs-string">'1'</span>,
+    <span class="hljs-attr">gasLimit</span>: <span class="hljs-number">10000</span>,
+  });
+  <span class="hljs-comment">// receipt return value =&gt; {</span>
+  <span class="hljs-comment">//   "version": 0,</span>
+  <span class="hljs-comment">//   "ID": "1b0252bd7addfa0920f61b222887743e42eacf9b607de45fa18a59e769cf674b",</span>
+  <span class="hljs-comment">//   "nonce": 20,</span>
+  <span class="hljs-comment">//   "sender": "io1qyqsqqqq26zujam2gt5cut0ggu8pa4d5q7hnrvsvace4x6",</span>
+  <span class="hljs-comment">//   "recipient": "io1qyqsqqqqcz8twkf0v55y04jr8cwmfk7q3lgjycyzjq0tx4",</span>
+  <span class="hljs-comment">//   "amount": "1",</span>
+  <span class="hljs-comment">//   "senderPubKey": "",</span>
+  <span class="hljs-comment">//   "signature": "",</span>
+  <span class="hljs-comment">//   "payload": "",</span>
+  <span class="hljs-comment">//   "gasLimit": 10000,</span>
+  <span class="hljs-comment">//   "gasPrice": "1",</span>
+  <span class="hljs-comment">//   "isCoinbase": false,</span>
+  <span class="hljs-comment">//   "fee": "",</span>
+  <span class="hljs-comment">//   "timestamp": 0,</span>
+  <span class="hljs-comment">//   "blockID": "",</span>
+  <span class="hljs-comment">//   "isPending": true</span>
+  <span class="hljs-comment">// }</span>
+})()
 </code></pre>
 <p>Need more detailed API references? Please visit <a href="/docs/iotex-client-js#sendtransfer">iotx.sendTransfer</a></p>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/sdk-account"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/docs/sdk-smart-contract"><span>Next</span><span class="arrow-next"> →</span></a></div><p style="font-size:12px;text-align:right"><strong>Last updated: </strong>2018-10-31 03:36:50</p></div></div><nav class="onPageNav docOnPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="//iotex.io/logo.svg" alt="IoTeX Documentations" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" href="https://github.com/iotexproject/iotex-docs" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 iotex.io</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/sdk-account"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/docs/sdk-smart-contract"><span>Next</span><span class="arrow-next"> →</span></a></div><p style="font-size:12px;text-align:right"><strong>Last updated: </strong>2018-10-31 20:47:44</p></div></div><nav class="onPageNav docOnPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="//iotex.io/logo.svg" alt="IoTeX Documentations" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" href="https://github.com/iotexproject/iotex-docs" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 iotex.io</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
