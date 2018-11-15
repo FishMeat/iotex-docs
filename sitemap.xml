@@ -4,6 +4,7 @@
 <url> <loc>http://docs.iotex.me/docs/guides</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/guides" /> </url>
 <url> <loc>http://docs.iotex.me/docs/iotex-client-js</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/iotex-client-js" /> </url>
 <url> <loc>http://docs.iotex.me/docs/json-rpc</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/json-rpc" /> </url>
+<url> <loc>http://docs.iotex.me/docs/open-testnet</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/open-testnet" /> </url>
 <url> <loc>http://docs.iotex.me/docs/sdk-account</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/sdk-account" /> </url>
 <url> <loc>http://docs.iotex.me/docs/sdk-overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/sdk-overview" /> </url>
 <url> <loc>http://docs.iotex.me/docs/sdk-rpc-methods</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://docs.iotex.me/docs/sdk-rpc-methods" /> </url>
