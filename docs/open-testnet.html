@@ -97,15 +97,27 @@ b3554e412b00   iotex/iotex-core:testnet   <span class="hljs-string">"iotex-serve
 <p><a target="_blank" href="https://heroku.com/deploy?template=https://github.com/iotexproject/iotex-explorer">
 <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a></p>
+<p>You will see a page like below:</p>
 <p><img src="https://docs.iotex.io/img/heroku-deploy.png" alt="App deploy" style="width: 70%; height: 70%;"></p>
 <p>Enter a name you like in App name and click the Deploy app button, it takes about 3~4 minutes to build and deploy. Wait until you see green tick and “Your app was successfully deployed”, as shown below</p>
 <p><img src="https://docs.iotex.io/img/heroku-finish.png" alt="App finish" style="width: 70%; height: 70%;"></p>
 <p>Click on Manage app. On the coming page, click on Settings tab, and Reveal Config Vars.</p>
 <p><img src="https://docs.iotex.io/img/heroku-setting.png" alt="App setting" style="width: 70%; height: 70%;"></p>
-<p>We’ll need to config these 5 parameters for the Explorer app to working correctly.</p>
-<p>You’ll end up like the figure below, with <a href="http://yourIP:30100">http://yourIP:30100</a> replaced by the Explorer URL mentioned earlier.</p>
+<p>We’ll need to add these 5 parameters for the Explorer app to working correctly:</p>
+<table>
+<thead>
+<tr><th>KEY</th><th>VALUE</th></tr>
+</thead>
+<tbody>
+<tr><td>CHAINS</td><td>[{&quot;id&quot;:1,&quot;name&quot;:&quot;mainchain&quot;,&quot;url&quot;:&quot;<a href="http://iotexscan.io/">http://iotexscan.io/</a>&quot;,&quot;gatewayUrl&quot;:&quot;<a href="https://iotexscan.com/">https://iotexscan.com/</a>&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;subchain&quot;,&quot;url&quot;:&quot;<a href="http://subchain.iotexscan.io/">http://subchain.iotexscan.io/</a>&quot;,&quot;gatewayUrl&quot;:&quot;<a href="https://subchain.iotexscan.io/">https://subchain.iotexscan.io/</a>&quot;}]</td></tr>
+<tr><td>IOTEX_CORE_URL</td><td>type in <strong>Explorer URL</strong> mentioned earlier</td></tr>
+<tr><td>IOTEX_WALLET_URL</td><td>159.89.223.147:42124</td></tr>
+<tr><td>NODE_ENV</td><td>production</td></tr>
+</tbody>
+</table>
+<p>You’ll end up like the figure below, with <code>http://yourIP:30100</code> replaced by the Explorer URL mentioned earlier.</p>
 <p><img src="https://docs.iotex.io/img/heroku-config.png" alt="App config" style="width: 70%; height: 70%;"></p>
-<p>Now you are ready to launch your own IoTeX explorer. Click on Open app in the top right of the page, or go to <a href="http://appname.herokuapp.com">http://appname.herokuapp.com</a>, you will see your own IoTeX explorer live in action!</p>
+<p>Now you are ready to launch your own IoTeX explorer. Click on Open app in the top right of the page, or go to <code>http://appname.herokuapp.com</code>, you will see your own IoTeX explorer live in action!</p>
 </span></div></article></div><div class="docLastUpdate"><em>Last updated on 2018-11-30</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/guides"><span class="arrow-prev">← </span><span class="function-name-prevnext">IoTeX Development Guides</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#install-the-iotex-docker-image">Install the IoTeX docker image</a></li><li><a href="#config-your-network-setting">Config your network setting</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div class="subscribleForm"><h3>IoTeX Updates &amp; Newsletter</h3><span>Stay updated with our latest progress, news, events and community reward programs!</span><form action="//network.us16.list-manage.com/subscribe/post?u=2f676e23e08fa3633f66ebc89&amp;id=b7930ab8b9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"><input type="email" aria-label="Email" id="mce-EMAIL" name="EMAIL" placeholder="email@example.com" required=""/><input type="hidden" name="b_2f676e23e08fa3633f66ebc89_b7930ab8b9" tabindex="-1" value=""/><button>SUBSCRIBE</button></form></div><div><h3>LEARN</h3><a href="https://iotex.io/#roadmap">ROADMAP</a><a href="https://iotexscan.io/ ">EXPLORER</a><a href="https://iotex.io/partnership">PARTNERSHIP</a><a href="https://iotex.io/#team ">TEAM</a><a href="https://hire.withgoogle.com/public/jobs/iotexio ">CAREER</a><a href="https://iotex.io/FAQ ">FAQ</a></div><div><h3>DEVELOP</h3><a href="/docs/en/sdk-overview">GETTING STARTED</a><a href="/docs/en/guides">GUIDES</a><a href="https://github.com/iotexproject">GITHUB</a><a href="/docs/en/iotex-client-js">API REFERENCE</a><a href="https://github.com/iotexproject/iotex-core/wiki/Developers&#x27;-Guide">CONTRIBUTE</a><a href="https://gitter.im/iotex-dev-community/Lobby">GET HELP</a></div><div><h3>INVEST</h3><a href="https://support.binance.com/hc/en-us/articles/360004401292-Binance-Lists-IoTeX-IOTX-">BINANCE</a><a href="https://gateio.io/article/16457">GATE.IO</a><a href="https://news.kucoin.com/en/iotex-iotx-gets-listed-on-kucoin-world-premiere/">KUCOIN</a><a href="https://iotexscan.io/wallet">WALLET(TESTNET)</a></div><div><h3>CONNECT</h3><a href="https://t.me/IoTeXGroup">TELEGRAM</a><a href="https://twitter.com/iotex_io">TWITTER</a><a href="https://www.reddit.com/r/IoTeX/">REDDIT</a><a href="https://medium.com/@iotex">MEDIUM</a><a href="https://www.linkedin.com/company/iotex/">LINKEDIN</a><a href="http://forum.iotex.io/">FORUM</a></div></section><section class="copyright">Icons made by <a class="copyright" target="_blank" href="https://www.flaticon.com/authors/smalllikeart" rel="noopener noreferrer">smalllikeart</a> from www.flaticon.com</section><section class="copyright">Copyright © 2018 IoTeX</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
