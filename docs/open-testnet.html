@@ -93,13 +93,14 @@ b3554e412b00   iotex/iotex-core:testnet   <span class="hljs-string">"iotex-serve
 <h1><a class="anchor" aria-hidden="true" id="explore-the-full-node"></a><a href="#explore-the-full-node" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explore the full node</h1>
 <p>The IoTeX docker image is embedded with a service in the backend called Explorer. It connects to the blockchain on the full node and provides API to access and query data on the blockchain through JSON RPC. In this part of the guide we’ll show you how to quickly deploy your own IoTeX blockchain explorer.</p>
 <p>In the docker command there is a flag <code>-p 30100:14004</code>, this will expose the Explorer service to port 30100 on your host machine (14004 is the internal port inside the docker container). Your Explorer URL is hence the external IP : 30100. For example, with an IP 30.30.30.30 the Explorer URL is http://30.30.30.30:30100</p>
-<p>With the correct URL in hand, let’s set up your own Explorer. Click on <a target="_blank" href="https://heroku.com/deploy?template=https://github.com/iotexproject/iotex-explorer">
+<p>With the correct URL in hand, let’s set up your own Explorer. Click on the button below. Please sign up a free Heroku account if you don't have one yet.</p>
+<p><a target="_blank" href="https://heroku.com/deploy?template=https://github.com/iotexproject/iotex-explorer">
 <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a> Please sign up a free Heroku account if you don't have one yet.</p>
+</a></p>
 <p><img src="/img/heroku-deploy.png" alt="App deploy"></p>
-<p>Enter a name you like in App name and click the Deploy app button, it takes about 3~4 minutes to build and deploy. Wait until you see green tick and “Your app was successfully deployed”, click on Manage app, as shown below</p>
+<p>Enter a name you like in App name and click the Deploy app button, it takes about 3~4 minutes to build and deploy. Wait until you see green tick and “Your app was successfully deployed”, as shown below</p>
 <p><img src="/img/heroku-finish.png" alt="App finish"></p>
-<p>Then click on Settings tab, and Reveal Config Vars.</p>
+<p>Click on Manage app. On the coming page, click on Settings tab, and Reveal Config Vars.</p>
 <p><img src="/img/heroku-setting.png" alt="App setting"></p>
 <p>We’ll need to config these 5 parameters for the Explorer app to working correctly.</p>
 <p>You’ll end up like the figure below, with <a href="http://yourIP:30100">http://yourIP:30100</a> replaced by the Explorer URL mentioned earlier.</p>
